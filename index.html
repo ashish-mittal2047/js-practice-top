@@ -8,6 +8,13 @@
     function add7(number) {
       return number + 7;
     }
+    function multiply(num1, num2) {
+      if (isNaN(+num1) || isNaN(+num2)) {
+        return "Please enter numbers only!";
+      }
+
+      return num1 * num2;
+    }
   </script>
 </head>
 
