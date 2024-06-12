@@ -5,3 +5,12 @@
 .blue-text {
   color: blue;
 }
+
+.black-border {
+  border: 2px solid black;
+}
+
+
+.background-pink {
+  background-color: pink;
+}
