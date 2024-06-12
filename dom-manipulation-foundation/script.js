@@ -14,6 +14,13 @@ const headingInsideDiv = document.createElement('h1');
 headingInsideDiv.textContent = "I'm in a div";
 
 const paraInsideDiv = document.createElement('p');
-paraInsideDiv.classList.add("ME TOO!");
+paraInsideDiv.textContent = "ME TOO!";
 
+const container = document.querySelector('#container');
+container.appendChild(para);
+container.appendChild(heading);
 
+div.appendChild(headingInsideDiv);
+div.appendChild(paraInsideDiv);
+
+container.appendChild(div);
